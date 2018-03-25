@@ -9,6 +9,7 @@ function Coin() {
     this.y = Math.floor(Math.random() * 10);
 }
 
+
 function Game() {
     this.board = document.querySelectorAll("#board div");
     this.furry = new Furry();
